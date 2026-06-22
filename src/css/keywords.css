@@ -1,0 +1,25 @@
+.keywords-bg {
+  background: #131300;
+}
+
+.keyword-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.keyword-chip {
+  padding: 10px 18px;
+  border: 1px solid var(--yellow-dark);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: var(--yellow);
+  background: rgba(245, 196, 0, 0.05);
+  cursor: default;
+  transition: background 0.2s;
+}
+
+.keyword-chip:hover {
+  background: rgba(245, 196, 0, 0.15);
+}

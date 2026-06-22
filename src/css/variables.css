@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap');
+
+:root {
+  --yellow: #F5C400;
+  --yellow-dark: #C9A000;
+  --black: #111111;
+  --charcoal: #1C1C1C;
+  --steel: #2E2E2E;
+  --mid: #4A4A4A;
+  --concrete: #888888;
+  --light: #D0D0D0;
+  --white: #F2F2F2;
+
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'Share Tech Mono', monospace;
+}

@@ -1,0 +1,103 @@
+.machines-bg {
+  background: var(--charcoal);
+}
+
+.machine-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.machine-tab {
+  padding: 12px 24px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: var(--steel);
+  color: var(--concrete);
+  border: none;
+  cursor: pointer;
+  border-right: 1px solid var(--mid);
+  transition: all 0.2s;
+}
+
+.machine-tab:hover {
+  color: var(--white);
+  background: var(--mid);
+}
+
+.machine-tab.active {
+  background: var(--yellow);
+  color: var(--black);
+  font-weight: 700;
+}
+
+.brands-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.brand-card {
+  background: var(--steel);
+  border: 1px solid var(--mid);
+  border-top: 3px solid var(--yellow);
+  padding: 28px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.brand-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(245, 196, 0, 0.12);
+}
+
+.brand-name {
+  font-family: var(--font-display);
+  font-size: 26px;
+  letter-spacing: 2px;
+  color: var(--yellow);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand-name::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--mid);
+}
+
+.model-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.model-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--light);
+  padding: 8px 12px;
+  background: var(--charcoal);
+  transition: background 0.15s;
+}
+
+.model-item:hover {
+  background: #2a2a00;
+  color: var(--yellow);
+}
+
+.model-item::before {
+  content: "▸";
+  color: var(--yellow);
+  font-size: 10px;
+  flex-shrink: 0;
+}

@@ -1,0 +1,37 @@
+.footer {
+  padding: 40px 60px;
+  background: var(--black);
+  border-top: 2px solid var(--yellow);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.footer-logo {
+  font-family: var(--font-display);
+  font-size: 22px;
+  letter-spacing: 3px;
+  color: var(--yellow);
+}
+
+.footer-copy {
+  font-size: 12px;
+  color: var(--concrete);
+  font-family: var(--font-mono);
+}
+
+.footer-brands {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--mid);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 28px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
