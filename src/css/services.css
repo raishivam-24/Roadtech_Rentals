@@ -6,7 +6,8 @@
 
 .service-card {
   padding: 32px 24px;
-  border: 1px solid var(--mid);
+  border: 1px solid var(--line);
+  background: var(--card);
   position: relative;
   overflow: hidden;
   transition: border-color 0.2s;
@@ -19,7 +20,7 @@
   left: 0;
   right: 0;
   height: 3px;
-  background: var(--yellow);
+  background: var(--amber);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s;
@@ -30,7 +31,7 @@
 }
 
 .service-card:hover {
-  border-color: var(--yellow);
+  border-color: var(--amber);
 }
 
 .service-icon {
@@ -42,12 +43,12 @@
   font-family: var(--font-display);
   font-size: 22px;
   letter-spacing: 1px;
-  color: var(--white);
+  color: var(--navy);
   margin-bottom: 10px;
 }
 
 .service-desc {
   font-size: 14px;
-  color: var(--concrete);
+  color: var(--steel);
   line-height: 1.6;
 }

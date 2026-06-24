@@ -1,5 +1,5 @@
 .ticker {
-  background: var(--yellow);
+  background: var(--amber);
   overflow: hidden;
   padding: 10px 0;
 }
@@ -16,7 +16,7 @@
   font-family: var(--font-mono);
   font-size: 12px;
   letter-spacing: 2px;
-  color: var(--black);
+  color: var(--navy);
   text-transform: uppercase;
   display: flex;
   align-items: center;
@@ -29,12 +29,8 @@
 }
 
 @keyframes ticker {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
 }
 
 @media (prefers-reduced-motion: reduce) {

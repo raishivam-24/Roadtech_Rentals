@@ -1,15 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800&family=Share+Tech+Mono&display=swap');
 
 :root {
-  --yellow: #F5C400;
-  --yellow-dark: #C9A000;
-  --black: #111111;
-  --charcoal: #1C1C1C;
-  --steel: #2E2E2E;
-  --mid: #4A4A4A;
-  --concrete: #888888;
-  --light: #D0D0D0;
-  --white: #F2F2F2;
+  --amber: #D98B00;
+  --amber-dark: #B8740A;
+  --amber-light: #F0AE3D;
+  --navy: #1B2330;
+  --navy-light: #2B3647;
+  --steel: #5C6678;
+  --concrete: #8B92A0;
+  --line: #D8DCE2;
+  --bg: #F7F6F2;
+  --bg-alt: #EFEDE6;
+  --card: #FFFFFF;
+  --white: #FFFFFF;
 
   --font-display: 'Bebas Neue', sans-serif;
   --font-body: 'Inter', sans-serif;

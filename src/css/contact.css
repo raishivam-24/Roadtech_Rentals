@@ -1,5 +1,24 @@
+.contact-page {
+  padding-top: 0;
+}
+
+.contact-success {
+  background: var(--card);
+  border-left: 3px solid var(--amber);
+  padding: 24px;
+  font-size: 14px;
+  color: var(--navy);
+  line-height: 1.6;
+}
+
+.contact-form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .contact-bg {
-  background: var(--charcoal);
+  background: var(--bg-alt);
 }
 
 .contact-grid {
@@ -11,13 +30,13 @@
 .contact-info h3 {
   font-family: var(--font-display);
   font-size: 40px;
-  color: var(--white);
+  color: var(--navy);
   margin-bottom: 20px;
 }
 
 .contact-info p {
   font-size: 14px;
-  color: var(--concrete);
+  color: var(--steel);
   line-height: 1.8;
   margin-bottom: 32px;
 }
@@ -30,14 +49,14 @@
 }
 
 .contact-detail-icon {
-  color: var(--yellow);
+  color: var(--amber-dark);
   font-size: 18px;
   margin-top: 2px;
 }
 
 .contact-detail-text {
   font-size: 14px;
-  color: var(--light);
+  color: var(--navy);
 }
 
 .contact-form {
@@ -48,9 +67,9 @@
 
 .form-input,
 .form-textarea {
-  background: var(--steel);
-  border: 1px solid var(--mid);
-  color: var(--white);
+  background: var(--card);
+  border: 1px solid var(--line);
+  color: var(--navy);
   padding: 14px 16px;
   font-family: var(--font-body);
   font-size: 14px;
@@ -59,9 +78,14 @@
   width: 100%;
 }
 
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: var(--concrete);
+}
+
 .form-input:focus,
 .form-textarea:focus {
-  border-color: var(--yellow);
+  border-color: var(--amber);
 }
 
 .form-textarea {

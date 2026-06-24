@@ -1,0 +1,79 @@
+.category-story {
+  background: var(--bg-alt);
+}
+
+.story-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.story-step-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: var(--amber-dark);
+  margin-bottom: 16px;
+}
+
+.story-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.story-row.reverse {
+  direction: rtl;
+}
+
+.story-row.reverse > * {
+  direction: ltr;
+}
+
+.story-info .story-tag {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: var(--amber-dark);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.story-title {
+  font-family: var(--font-display);
+  font-size: 36px;
+  letter-spacing: 1px;
+  color: var(--navy);
+  margin-bottom: 14px;
+}
+
+.story-desc {
+  font-size: 14px;
+  color: var(--steel);
+  line-height: 1.7;
+  margin-bottom: 20px;
+  max-width: 420px;
+}
+
+.story-link {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: var(--navy);
+  text-decoration: none;
+  border-bottom: 2px solid var(--amber);
+  padding-bottom: 4px;
+}
+
+.story-link:hover {
+  color: var(--amber-dark);
+}
+
+@media (max-width: 900px) {
+  .story-row,
+  .story-row.reverse {
+    grid-template-columns: 1fr;
+    direction: ltr;
+  }
+}

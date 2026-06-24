@@ -1,5 +1,5 @@
 .keywords-bg {
-  background: #131300;
+  background: var(--bg-alt);
 }
 
 .keyword-grid {
@@ -10,16 +10,16 @@
 
 .keyword-chip {
   padding: 10px 18px;
-  border: 1px solid var(--yellow-dark);
+  border: 1px solid var(--amber-dark);
   font-family: var(--font-mono);
   font-size: 12px;
   letter-spacing: 1px;
-  color: var(--yellow);
-  background: rgba(245, 196, 0, 0.05);
+  color: var(--amber-dark);
+  background: rgba(217, 139, 0, 0.06);
   cursor: default;
   transition: background 0.2s;
 }
 
 .keyword-chip:hover {
-  background: rgba(245, 196, 0, 0.15);
+  background: rgba(217, 139, 0, 0.15);
 }

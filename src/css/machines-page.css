@@ -1,0 +1,52 @@
+.machines-page {
+  padding-top: 0;
+}
+
+.page-header {
+  padding: 64px 60px 0;
+  max-width: 760px;
+}
+
+.no-results {
+  color: var(--steel);
+  font-family: var(--font-mono);
+  font-size: 13px;
+}
+
+.machine-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.machine-tab {
+  padding: 12px 24px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: var(--card);
+  color: var(--steel);
+  border: 1px solid var(--line);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.machine-tab:hover {
+  color: var(--navy);
+  background: var(--bg-alt);
+}
+
+.machine-tab.active {
+  background: var(--navy);
+  color: var(--white);
+  font-weight: 700;
+  border-color: var(--navy);
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    padding: 56px 24px 0;
+  }
+}
